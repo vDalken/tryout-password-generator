@@ -34,11 +34,11 @@ main {
     justify-content: center;
     align-items: center;
     color: var(--white);
-    gap: 1rem;
+    gap: 1.1rem;
 }
 
 header h2 {
-    font-size: x-small;
+    font-size: 1.2rem;
     opacity: 0.4;
 }
 
@@ -51,13 +51,13 @@ section.password-container {
 
 section.password-container p.password{
     opacity: .3;
-    font-size: small;
+    font-size: 1.2rem;
 }
 
 section.password-container,
 section.password-options {
     background-color: var(--light-black);
-    padding: 0.7rem;
+    padding: .8rem;
 }
 
 section.password-options {
@@ -78,14 +78,14 @@ section.password-options {
 .options {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.6rem;
 }
 
 button.copy-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    transform: scale(.6);
+    transform: scale(1);
 }
 
 button.copy-button:hover{
@@ -98,18 +98,24 @@ button img {
 
 .character-length {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 12rem;
 }
 
-.character-length p{
-    font-size: .6rem;
+.character-length p.character-length-text{
+    font-size: .8rem;
+}
+
+.character-length-number{
+    font-size: 1.3rem;
 }
 
 label {
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: .6rem;
+    font-size: .8rem;
     margin-right: 3rem;
 }
 
@@ -117,32 +123,32 @@ label {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.9rem;
+    padding: 1rem;
     background-color: var(--black);
 }
 
 .password-strength h2 {
-    font-size: .6rem;
+    font-size: .8rem;
     opacity: 0.4;
 }
 
 .generate-button {
-    padding: 0.8rem;
+    padding: 1.2rem;
     border-radius: 0;
     border: 1px solid #000;
     background-color: var(--green);
     opacity: 0.8;
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.6rem;
 }
 
 .character-options header {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 1.2rem;
 }
 
 .character-length-number {
@@ -152,8 +158,8 @@ label {
 input[type="checkbox"]{
     position: relative;
     appearance: none;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border: 1px solid var(--white);
     cursor: pointer;
 }
@@ -169,12 +175,12 @@ input[type="checkbox"]:checked{
 
 .strength-container{
     display: flex;
-    gap: .8rem;
+    gap: 1rem;
     align-items: center;
 }
 
 .strength-container p{
-    font-size: xx-small;
+    font-size: .8rem;
 }
 
 .strength-bars{
@@ -183,8 +189,8 @@ input[type="checkbox"]:checked{
 }
 
 .strength-bar{
-    width: 6px;
-    height: 14px;
+    width: 8px;
+    height: 22px;
     border: 1px solid var(--white);
 }
 
@@ -200,7 +206,7 @@ input[type="checkbox"]:checked{
 }
 
 .generate-button svg{
-    transform: scale(.5);
+    transform: scale(.8);
 }
 
 .range-element input{
@@ -257,5 +263,5 @@ input[type="checkbox"]:checked{
 }
 
 .button-copy-container p{
-    font-size: xx-small;
+    font-size: 1rem;
 }
